@@ -11,7 +11,7 @@
 ## 🛠️ Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/hancalc.git
+   git clone https://github.com/hanco89/hancalc.git
    ```
 2. Accede al directorio:
    ```bash
