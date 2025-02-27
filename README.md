@@ -22,7 +22,7 @@
    
 4. Ejecuta la calculadora:
    ```bash
-   python calculadora.py
+   python Hancalc.py
    ```
 
 ## 🏗️ Estructura del Código
