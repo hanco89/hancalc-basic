@@ -42,7 +42,7 @@
 
 ### 📸 Capturas de Pantalla
 
-![Interfaz Calculadora](images/hancalc-basic.jpg)
+![Interfaz grafica](images/interfaz.jpg)
 
 ### 🤝 Contribuciones
 
