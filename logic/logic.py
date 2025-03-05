@@ -19,8 +19,8 @@ class Logic:
                 self.ui.show_result.config(text = result) #Mostramos el resultado en pantalla    
             except ZeroDivisionError: #Si se intenta dividir por 0 mostramos un mensaje:
                 self.ui.show_result.config(text = "Cannot divide by 0") 
-            except : #Si ocurre otro error, ej: 02213123 +++++ 123123
-                self.ui.show_result.config(text = "ERROR")     
+            except Exception as error : #Si ocurre otro error, ej: 02213123 +++++ 123123
+                self.ui.show_result.config(text = "¡Error! " + error)     
         elif value == "C": #Si ingresa el boton C  
             self.ui.show_result.config(text = "0") #Se limpia el display  
         else: #Si ingresa otro valor lo sumamos al valor que se encuentre en el display           
